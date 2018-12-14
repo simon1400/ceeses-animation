@@ -50,8 +50,10 @@ b, strong {
 	font-weight: bold;
 }
 
-#content_wrap{
-	filter: blur(1px);
+#svg_blur{
+	position: absolute;
+	top: 0;
+	filter: blur(5px);
 }
 
 @import "media"; // Always at the end
